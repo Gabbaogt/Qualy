@@ -1,0 +1,215 @@
+@charset "UTF-8";
+
+#corpo {
+    background-color: rgb(151, 217, 243);
+}
+
+
+#logo {
+    height: 500px;
+    width: 500px;
+    border-radius: 60px 60px 60px 60px;
+    box-shadow: 0.5px 1px 1px 3px black;
+}
+
+.figuralegenda{
+    position: relative;
+    width: 40%;
+    text-align: center;
+    margin-left: 60vh;
+    padding-top: 10px;
+    border-radius: 60px 60px 60px 60px;
+}
+
+figure.figuralegenda figcaption {
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 95%;
+    height: 100%;
+    padding-top: 30vh;
+    padding-left: 30px;
+    box-sizing: border-box;
+    color:rgb(248, 92, 1);
+    font-family: arial;
+    transition: opacity 1s;
+}
+
+figure.figuralegenda:hover figcaption {
+    opacity: 1;
+}
+
+
+
+#imagemlogo {
+    text-align: center;
+
+}
+
+.menu {
+    background-color: rgb(18, 18, 19);
+    border: solid 10px rgb(250, 121, 0);
+}
+
+.menu li, a{
+    color: rgba(247, 111, 0, 0.795);
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+}
+
+.menu a{
+    padding: 15px 30px;
+}
+
+.menu a:hover{
+    background-color: rgba(247, 111, 0, 0.795);
+    color: black;
+}
+
+.infoes {
+    margin: 1px -50px 20px -80px;
+    background-color: rgba(0, 0, 0, 1);
+    border: solid 10px rgb(250, 121, 0);
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.Titulo {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: coral;
+    background-color: rgb(18, 18, 19);
+
+}
+
+.imageminfoes {
+    width: 62%;
+    height: 50%; 
+    margin: 10% 100% 0% 18%;
+    border-radius: 50px 50px 50px 50px;
+    border: 5px groove rgb(250, 121, 0);
+}
+
+.row {
+    border: solid 10px rgb(250, 121, 0);
+    background-color: blueviolet;
+    margin: 50px 50px 50px 50px;
+}
+
+#secao1 {
+    float: left;
+    width: 30%;
+    padding: 50px 100px 50px 100px ;
+    margin: 100px 50px 100px 0;
+}
+
+.rodapeprodutoes {
+    float: right;
+    background-color: rgb(0, 180, 252);
+    width: 200%;  
+    margin: 50px 50px 50px 0; 
+    color: rgb(0, 180, 252);
+}
+
+.rodapeprodutodi {
+    float: right;
+    background-color: rgb(0, 180, 252);
+    width: 400%;  
+    margin: 50px 0 50px 0; 
+    color: rgb(0, 180, 252);
+    padding-right: 70px;
+}
+
+.infodi {
+    margin: 1px -80px 20px -50px;
+    background-color: rgba(0, 0, 0, 1);
+    border: solid 10px rgb(250, 121, 0);
+    box-shadow: 10px 10px 10px black;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.imageminfodi {
+    width: 62%;
+    height: 50%; 
+    margin: 10% 100% 0% 18%;
+    border-radius: 50px 50px 50px 50px;
+    border: 5px groove rgb(250, 121, 0);
+}
+#secao2 {
+    float: right;
+    width: 30%;
+    padding: 50px 100px 50px 100px;
+    margin: 100px 0 100px 0;
+    
+}
+
+.tituloproduto {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(247, 111, 0, 0.795);
+    margin: 10% 100% 0% 0%;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.subtituloproduto {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(95, 152, 206);
+    text-align: center;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+}
+
+#rodape{
+    clear: both;
+    float: left;
+    width: 100%;
+    background-color: rgba(247, 111, 0, 1);
+}
+
+#Rodape_esquerdo {
+    float: left;
+    width: 42%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px 50px 50px 50px;
+    color: rgba(247, 111, 0, 0.795);
+    background-color: black;
+
+}
+
+#Rodape_direito {
+    float: right;
+    width: 42%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: 50px 50px 50px 50px;
+    background-color: black;
+    color: rgba(247, 111, 0, 0.795);
+}
+
+.Rodape_Texto_Direito {
+    color: rgba(247, 111, 0, 0.795);
+}
+
+.Rodape_Texto_Direito:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+.TituloRodape {
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(0, 86, 245);
+    background-color: black;
+    width: 100%;
+}
