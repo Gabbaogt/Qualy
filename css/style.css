@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Logo';
+    src: url('/fontes/Pacifico-Regular.ttf');
+}
+/*Corpo do site*/
+body{
+    background-color: #524f4e;
+}
+/*Menu do site*/
+nav {
+    background-color: aliceblue;
+    height: 30px;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+nav ul li{
+    flex-basis: 100px;
+    list-style: none;
+    margin: 1px;
+    font-family: 'Logo', sans-serif;
+    text-align: center;
+    position: relative;
+    right: 40px;
+
+}
+
+nav ul li:hover {
+    background-color: rgba(55, 0, 255, 0.3);
+    cursor: pointer;
+}
+
+/*Desenvolvimento do site*/
+
+figure {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 10px;
+}
+
+figure img {
+    border: solid 4px white;
+    border-radius: 10%;
+    box-shadow: 10px 10px 10px black;
+}
+
+/*Rodapê do site*/
+
+footer {
+    border: 4px solid white;
+    background-image: url('/imagens/fundorodape.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 50% 100%;
+}
+
+footer p {
+    font-family: 'Logo', sans-serif;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#dir {
+    position: relative;
+    margin: 0px;
+    width: 50%;
+    background-color: rgba(103, 103, 230,0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+#esq {
+    position: relative;
+    margin: 0px;
+    width: 50%;
+    background-color: rgba(189, 140, 105,0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.logoroda {
+    width: 10%;
+    height: 60%;
+    position: relative;
+    top: 3px;
+}
+
+#esq p{
+    border: 4px solid white;
+    border-radius: 25%;
+    width: 36%;
+    font-size: 13px;
+}
+
+#dir p{
+    border: 4px solid white;
+    border-radius: 25%;
+    width: 36%;
+}
+
+footer a {
+    position: relative;
+    bottom: 2px;
+    text-decoration: none;
+    color: white;
+    padding: 1px;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: rgb(88, 88, 197);
+    background-color: #524f4e;
+}
